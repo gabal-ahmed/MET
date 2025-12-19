@@ -54,3 +54,29 @@ int main()
 
     return 0;
 }
+// void InsertNodeInTree(int item)
+// {
+//     Node *newNode = new Node();
+//     newNode->data = item;
+//     newNode->left = NULL;
+//     newNode->right = NULL;
+//     if (root == NULL)
+//     {
+//         root = newNode;
+//         return;
+//     }
+//     Node *current = root;
+//     Node *parent = NULL;
+//     while (current != NULL)
+//     {
+//         parent = current;
+//         if (item > current->data)
+//             current = current->right;
+//         else
+//             current = current->left;
+//     }
+//     if (item > parent->data)
+//         parent->right = newNode;
+//     else
+//         parent->left = newNode;
+// }
